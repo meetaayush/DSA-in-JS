@@ -32,6 +32,7 @@ function evaluatePostfix(exp) {
     return Math.floor(s.pop())
 }
 
-const str = "921*-8-4+"
+const str = "$942+*6147/+*$"
 const str2 = "435/+"
-evaluatePostfix(str2)
+const res = evaluatePostfix(str)
+console.log(res)

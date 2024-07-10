@@ -143,7 +143,7 @@ class SingleList {
     }
 }
 
-module.exports = { SingleList }
+module.exports = { SingleList, Node }
 
 // const list = new SingleList()
 // list.insertAtHead(5)
